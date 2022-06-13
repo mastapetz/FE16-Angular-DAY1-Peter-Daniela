@@ -3,7 +3,7 @@
     <!-- Container wrapper -->
     <div class="container-fluid">
         <!-- Navbar brand -->
-        <a class="navbar-brand text-info" href="#">Winter Tour</a>
+        <a class="navbar-brand text-info" routerLink="/" href="#">Winter Tour</a>
 
         <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,29 +15,14 @@
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active text-info" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-info" routerLink="/" aria-current="page" href="#">Home</a>
                 </li>
 
                 <!-- Navbar dropdown -->
-                <li class="nav-item dropdown text-info">
-                    <a class="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                <li>
+                    <a class="nav-link text-info" routerLink="/about" id="navbarDropdown" role="button">
               About
             </a>
-                    <!-- Dropdown menu -->
-                    <ul class="dropdown-menu text-info" aria-labelledby="navbarDropdown">
-                        <li>
-                            <a class="dropdown-item text-info" href="#">Action</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item text-info" href="#">Another action</a>
-                        </li>
-                        <li>
-                            <hr class="dropdown-divider" />
-                        </li>
-                        <li>
-                            <a class="dropdown-item text-info" href="#">Something else here</a>
-                        </li>
-                    </ul>
                 </li>
 
                 <li class="nav-item dropdown text-info">

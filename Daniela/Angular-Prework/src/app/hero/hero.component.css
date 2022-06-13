@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 60vh;
     display: -ms-grid;
     display: grid;
     grid-template-areas: "hero";
@@ -15,7 +15,7 @@ header>* {
 header #hero-img {
     -o-object-fit: cover;
     object-fit: cover;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
@@ -35,25 +35,4 @@ header h5 {
 
 #learnMore {
     max-width: 200px;
-}
-
-.secondHero {
-    width: 100vw;
-    background-color: rgba(127, 255, 212, 0.394);
-    margin-top: 1vh;
-    padding-bottom: 4rem;
-}
-
-#h4 {
-    padding-top: 1rem;
-}
-
-.card-container {
-    justify-content: center;
-    display: flex;
-    gap: 3rem;
-}
-
-.heroCard {
-    width: 250px;
 }
