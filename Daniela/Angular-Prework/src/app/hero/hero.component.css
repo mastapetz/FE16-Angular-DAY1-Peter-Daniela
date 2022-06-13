@@ -1,0 +1,45 @@
+header {
+    height: 70vh;
+    display: -ms-grid;
+    display: grid;
+    grid-template-areas: "hero";
+    place-items: center;
+}
+
+header>* {
+    grid-row: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: hero;
+}
+
+header #hero-img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+header h1 {
+    font-family: Garamond, serif;
+    color: #0000009f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-end-end-radius: 50% 50%;
+    border-end-start-radius: 50% 50%;
+    border-start-end-radius: 50% 50%;
+    border-start-start-radius: 50% 50%;
+}
+
+header h5 {
+    font-family: Garamond, serif;
+    color: #0000008a;
+}
+
+#learnMore {
+    max-width: 200px;
+    align-content: center;
+}
