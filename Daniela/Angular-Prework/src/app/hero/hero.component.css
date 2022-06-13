@@ -1,5 +1,5 @@
 header {
-    height: 70vh;
+    height: 100vh;
     display: -ms-grid;
     display: grid;
     grid-template-areas: "hero";
@@ -15,17 +15,13 @@ header>* {
 header #hero-img {
     -o-object-fit: cover;
     object-fit: cover;
-    height: 70vh;
+    height: 100vh;
     width: 100%;
 }
 
 header h1 {
     font-family: Garamond, serif;
     color: #0000009f;
-    border-end-end-radius: 50% 30%;
-    border-end-start-radius: 50% 30%;
-    border-start-end-radius: 50% 30%;
-    border-start-start-radius: 50% 30%;
 }
 
 header h5 {
@@ -39,4 +35,25 @@ header h5 {
 
 #learnMore {
     max-width: 200px;
+}
+
+.secondHero {
+    width: 100vw;
+    background-color: rgba(127, 255, 212, 0.394);
+    margin-top: 1vh;
+    padding-bottom: 4rem;
+}
+
+#h4 {
+    padding-top: 1rem;
+}
+
+.card-container {
+    justify-content: center;
+    display: flex;
+    gap: 3rem;
+}
+
+.heroCard {
+    width: 250px;
 }
