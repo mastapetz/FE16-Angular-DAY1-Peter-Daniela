@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-page.component.scss']
 })
 export class AboutPageComponent implements OnInit {
+  thisclass: string = `We offer you unique experience everywhere on earth and almost everywhere in this Galaxy`;
 
   constructor() { }
 

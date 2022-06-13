@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
   destinationName1: string ="Dreamlocation 1";
+  destinationImg1: string ="/assets/img/berlin.jpg";
   destinationPrice1: number = 1500;
   destinationNights1: number =3;
   destinationCity1: string ="Berlin";
@@ -27,9 +28,16 @@ export class HomePageComponent implements OnInit {
   destinationNights5: number =4;
   destinationCity5: string ="Vienna";
   destinationName6: string ="Dreamlocation 6";
-  destinationPrice6: number = 120.000;
+  destinationPrice6: number = 120000;
   destinationNights6: number = 10;
   destinationCity6: string ="Space Station Nebula X";
+  destinationImg2: string ="/assets/img/franke.jpg";
+  destinationImg3: string ="/assets/img/sbg.jpg";
+  destinationImg4: string ="/assets/img/tokyo.jpg";
+  destinationImg5: string ="/assets/img/vienna.jpg";
+  destinationImg6: string ="/assets/img/nasa.jpg";
+
+
   constructor() { }
 
   ngOnInit(): void {
