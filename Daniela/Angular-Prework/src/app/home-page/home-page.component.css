@@ -37,6 +37,15 @@ header h5 {
     max-width: 200px;
 }
 
+.row {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.col {
+    margin-right: 1rem;
+}
+
 #img1 {
     background-image: url(/assets/image1.jpg);
     width: 500px;
@@ -77,4 +86,24 @@ header h5 {
     width: 500px;
     height: 350px;
     background-size: cover;
+}
+
+#price {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+    margin-top: 10px;
+    text-align: center;
+    background-color: red;
+    width: 15%;
+}
+
+#location {
+    background-color: rgba(0, 0, 0, 0.318);
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(248, 248, 248, 0.585);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 9vw;
 }
