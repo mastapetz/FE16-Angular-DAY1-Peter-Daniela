@@ -9,8 +9,6 @@ header {
 header>* {
     grid-row: 1;
     grid-column: 1;
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
     grid-area: hero;
 }
 
@@ -24,14 +22,10 @@ header #hero-img {
 header h1 {
     font-family: Garamond, serif;
     color: #0000009f;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-end-end-radius: 50% 50%;
-    border-end-start-radius: 50% 50%;
-    border-start-end-radius: 50% 50%;
-    border-start-start-radius: 50% 50%;
+    border-end-end-radius: 50% 30%;
+    border-end-start-radius: 50% 30%;
+    border-start-end-radius: 50% 30%;
+    border-start-start-radius: 50% 30%;
 }
 
 header h5 {
@@ -39,7 +33,10 @@ header h5 {
     color: #0000008a;
 }
 
+#centerBtn {
+    text-align: center;
+}
+
 #learnMore {
     max-width: 200px;
-    align-content: center;
 }
